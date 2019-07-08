@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: milanunion/multi-client:v8
+          image: milanunion/multi-client
           ports:
           - containerPort: 3000
 
